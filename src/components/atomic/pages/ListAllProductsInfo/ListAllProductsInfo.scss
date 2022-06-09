@@ -1,0 +1,20 @@
+@import "../../../../scss/abstracts/variables";
+
+.listProduct {
+    grid-column-start: 2;
+    grid-column-end: 11;
+    background: white;
+    margin: $padding_16px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0 $padding_16px;
+  }
+  
+  .breadcrumb {
+    grid-column-start: 2;
+    grid-column-end: 11;
+    font-size: 14px;
+    text-align: left;
+    margin-top: $padding_16px;
+    color: $dark-gray;
+  }

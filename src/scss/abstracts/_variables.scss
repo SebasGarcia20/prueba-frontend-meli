@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
+
+/* fonts */
+$font-open-sans: 'Open Sans', sans-serif;
+
+/* colors */
+$yellow: #FFE600;
+$light-gray: #EEEEEE;
+$gray: #999999;
+$dark-gray: #666666;
+$very-dark-gray: #333333;
+$blue: #3483fa;
+$dark-blue: #2968c8;
+$very-dark-blue: #1f4e96;
+$black: #000000;
+$white: #FFFFFF;
+
+/* Container Variables */
+$sm-breakpoint: 576px;
+$md-breakpoint: 768px;
+$lg-breakpoint: 1200px;
+
+/* paddings */
+$default_padding: 26px;
+$padding_16px: 16px;
+$padding_32px: 32px;
+$extend_padding: $default_padding;
+
+/* Header variables */
+$logo_real_height: 72px;
+$logo_real_width: 106px;
+
+$logo_padding_top_and_bottom: 10px;
+$logo_padding_right: $extend_padding;
+
+$logo_header_height: 40px;
+$logo_header_width: (($logo_header_height * $logo_real_width) / $logo_real_height)+$logo_padding_right;
+
+/* box shadows */
+$box-shadow-xs: 0px 3px 6px rgba(0, 0, 0, 0.05);
+
+
+
+

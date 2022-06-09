@@ -1,0 +1,8 @@
+
+@import "./scss/abstracts/_variables.scss";
+
+.app-content {
+  padding-top: ($logo_header_height + ($logo_padding_top_and_bottom * 2));
+  background-color: $light-gray;
+  min-height: calc(104vh - (#{ $logo_header_height } + (#{ $logo_padding_top_and_bottom })));
+}

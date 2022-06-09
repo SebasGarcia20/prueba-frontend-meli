@@ -1,0 +1,65 @@
+@import "../../../../scss/abstracts/variables";
+
+.button {
+    display: inline-flex;
+    min-width: max-content;
+    height: 45px;
+    width: calc(100% - 16px);
+    align-items: center;
+    justify-content: center;
+    background: $blue;
+    padding: 20px  ;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    color: $white;
+    font-size: 18px;
+  }
+  
+  .button:focus {
+    box-shadow: 0 0 0 1px $dark-blue, 0 0 10px 0 $dark-blue;
+  }
+  
+  .button:hover {
+    background-color: $dark-blue;
+  }
+  
+  .button:active {
+    background-color: $very-dark-blue;
+  }
+  
+//   .type-primary {
+//     background: var(--color-primary);
+//   }
+  
+//   .type-primary:focus {
+//     box-shadow: 0 0 0 1px var(--color-primary-inverted),
+//       0 0 10px 0 var(--color-primary);
+//   }
+  
+//   .type-secondary {
+//     border: var(--border-width-thin) solid var(--color-primary);
+//     background: var(--color-base-transparent);
+//   }
+  
+//   .type-tertiary {
+//     height: 25px;
+//     padding: 0;
+//     border-bottom: 1px solid var(--color-primary);
+//     background: var(--color-base-transparent);
+//     border-radius: var(--border-radius-none);
+//     box-shadow: var(--shadows-none);
+//   }
+  
+//   .type-tertiary:focus {
+//     box-shadow: 0 10px 10px -8px var(--color-primary);
+//   }
+  
+//   .button.is-inline {
+//     max-width: max-content;
+//   }
+  
+//   .is-muted {
+//     background: var(--color-primary-muted);
+//   }
+  
